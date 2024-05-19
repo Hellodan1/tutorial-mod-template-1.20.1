@@ -1,5 +1,6 @@
 package hellodan.tutorialmod;
 
+import hellodan.tutorialmod.block.ModBlocks;
 import hellodan.tutorialmod.item.ModItemGroups;
 import hellodan.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -19,6 +20,7 @@ public class TutorialMod implements ModInitializer {
 
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
